@@ -2,7 +2,7 @@ Algoritmo basic_calc_v2
 	//Declare variables or constants
 	Definir num1, num2, add, subs, mult Como Entero
 	Definir div Como Real
-	//asign or initialize variables or constants hola
+	//asign or initialize variables or constants 
 	num1<-0
 	num2<-0
 	add<-0
