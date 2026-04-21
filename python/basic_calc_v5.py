@@ -16,22 +16,22 @@ n1 =float (input("enter fisrt number "))
 n2 =float (input("enter second number "))
 main_menu()
 opt =int(input("enter any option:"))
-if (opt==1):
-    add= n1 +n2
-    print (f"add is: {add}")
-if (opt==2):
+if (opt ==1):
+    add = n1 + n2
+    print(f"addition is: {add}")
+elif (opt==2):
     subs= n1 -n2
     print (f"subs is: {subs}")
-if (opt==3):
+elif (opt==3):
     mult= n1 *n2
     print (f"subs is: {mult}")
-if (opt==4):
+elif (opt==4):
     div= n1 /n2
     print (f"subs is: {div}")
-if (opt==5):
+elif (opt==5):
     avg= (n1+n2)/2 
     print (f"subs is: {avg}")
-if (opt==6):
+elif (opt==6):
     add = n1 + n2
     subs=n1-n2
     mult= n1 *n2 
