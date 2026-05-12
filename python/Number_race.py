@@ -48,21 +48,21 @@ avance2=0
 Jugador3=0
 Jugador4=0
 
-while cantidad_jugadores ==2: 
-    input("Jugador 1 tire los dados")
-    dices= roll_dices ()
-    print(dices)
-    print (f"dice 1: {dices[0]}")
-    print (f"dice 2: {dices[1]}")
-    avance1=(dices[0] + dices[1])
-    Jugador1= Jugador1+avance1
-    input("Jugador 2 tire los dados")
-    dices= roll_dices ()
-    print(dices)
-    print (f"dice 1: {dices[0]}")
-    print (f"dice 2: {dices[1]}")
-    avance2=(dices[0] + dices[1])
-    Jugador2= Jugador2+avance2
+##while cantidad_jugadores ==2: 
+    #input("Jugador 1 tire los dados")
+    #dices= roll_dices ()
+    #print(dices)
+    #print (f"dice 1: {dices[0]}")
+    #print (f"dice 2: {dices[1]}")
+    #avance1=(dices[0] + dices[1])
+    #Jugador1= Jugador1+avance1
+    #input("Jugador 2 tire los dados")
+    #dices= roll_dices ()
+    #print(dices)
+    #print (f"dice 1: {dices[0]}")
+    #print (f"dice 2: {dices[1]}")
+    #avance2=(dices[0] + dices[1])
+    #Jugador2= Jugador2+avance2
 
 ## Dados
 dices= roll_dices ()
